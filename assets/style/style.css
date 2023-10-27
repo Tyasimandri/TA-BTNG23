@@ -1,0 +1,159 @@
+:root {
+  --blue: #6197bb;
+  --skyblue: #9ecef4;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+#home {
+  background-color: var(--skyblue);
+  text-align: center;
+  padding-block: 200px;
+  padding-top: 150px;
+}
+#home img {
+  width: 300px;
+  border-radius: 100%;
+  border: solid 1px var(--blue);
+}
+#home h1 {
+  font-size: 50px;
+  margin-block: 20px;
+}
+#home h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+#home h4 {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+#about {
+  padding-block: 150px;
+  padding-top: 80px;
+}
+
+#asal {
+  background-color: var(--skyblue);
+  padding-block: 150px;
+  padding-top: 70px;
+}
+
+#skill {
+  padding-block: 150px;
+  padding-top: 100px;
+}
+#skill .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#skill .box {
+  background-color: var(--skyblue);
+  padding: 30px;
+  border-radius: 10px;
+  border: solid 1px black;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#skill .box h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#skill .box li {
+  font-size: 20px;
+}
+
+#hobi {
+  background-color: var(--skyblue);
+  padding-block: 150px;
+  padding-top: 80px;
+}
+
+#favorite {
+  background-color: var(--skyblue);
+  padding-block: 150px;
+  padding-top: 100px;
+}
+
+#contact {
+  padding-block: 100PX;
+  padding-top: 50px;
+}
+.sosmed .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.sosmed .box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--skyblue);
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 220px;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.sosmed .box:hover {
+  background-color: var(--blue);
+}
+.sosmed .box a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sosmed img {
+  width: 40px;
+}
+
+#contact form {
+  padding-inline: 250px;
+}
+#contact input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-block: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#contact label {
+  font-weight: 600;
+}
+#contact textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-top: 10px;
+  resize: none;
+  padding: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#contact button {
+  display: block;
+  margin-inline: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: solid 1px black;
+  font-size: 18px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  background-color: var(--blue);
+  color: white;
+  padding: 20px;
+}
